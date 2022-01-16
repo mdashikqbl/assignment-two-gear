@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+/* header start */
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 100px;
+    margin-top: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-menu {
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+/* section start */
+
+.container {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog-left {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.blog-left h1 {
+    font-size: 30px;
+}
+
+.img-right img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 41px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ecom-logo {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.gear-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: px;
+    align-items: center;
+    place-items: center;
+
+}
+
+.align {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gear-img-para {
+    border: 2px solid white;
+    width: 320px;
+    margin: 20px 40px;
+    box-shadow: 10px 10px 20px gray;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.review-star {
+    color: #FFC014;
+
+}
+
+.gear-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gear-button a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+
+.align-center {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.align-center a {
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.Signup {
+    margin-bottom: 70px;
+}
+
+
+#color a {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+#color {
+    text-align: center;
+
+}
+
+.margin {
+    margin-bottom: 200px;
+}
+
+.Signup input {
+    background-color: #E02C6D;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.sec-four .left {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sec-four {
+    margin-left: 50px;
+
+}
+
+.sec-four li {
+    font-weight: 500;
+}
+
+/* responsive part */
+@media (max-width:1200px) {
+    .gear-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:765px) {
+    .gear-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:480px) {
+    .gear-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width:950px) {
+    .sec-four .left {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (max-width:520px) {
+    .sec-four .left {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:480px) {
+    .sec-four .left {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width:950px) {
+    .blog-left h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:800px) {
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+
+    }
+}
+
+@media (max-width:390px) {
+    .align-center {
+        width: 390px;
+        margin-right: 200px;
+
+    }
+}
+
+@media (max-width:850px) {
+    .margin .ecom-logo {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    .margin .ecom-logo {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1000px) {
+    nav span {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}
